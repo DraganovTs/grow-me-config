@@ -4,8 +4,8 @@ spring:
     name: email-service
   datasource:
     url: jdbc:mysql://mysql-services:3306/emails?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
-    username: ${SQL_DB_USERNAME}
-    password: ${SQL_DB_PASSWORD}
+    username: root
+    password: password12345
   jpa:
     show-sql: true
     hibernate:
