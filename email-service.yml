@@ -3,13 +3,13 @@ spring:
   application:
     name: email-service
   datasource:
-    url: jdbc:mysql://mysql_services:3306/emails?createDatabaseIfNotExist=true
+    url: jdbc:mysql://mysql-services:3306/emails?createDatabaseIfNotExist=true
     username: ${SQL_DB_USERNAME}
     password: ${SQL_DB_PASSWORD}
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
