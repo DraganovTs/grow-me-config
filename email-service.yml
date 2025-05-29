@@ -3,7 +3,7 @@ spring:
   application:
     name: email-service
   datasource:
-    url: jdbc:mysql://emailsdb:3307/emails?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://emailsdb:3307/emails
     username: root
     password: password12345
   jpa:
