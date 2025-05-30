@@ -7,7 +7,7 @@ spring:
       host: localhost
       port: 6380
   datasource:
-    url: jdbc:mysql://mysql:3306/growmeorders?createDatabaseIfNotExist=true
+    url: jdbc:mysql://mysql-services:3306/growmeorders?createDatabaseIfNotExist=true
     username: ${SQL_DB_USERNAME}
     password: ${SQL_DB_PASSWORD}
   jpa:
