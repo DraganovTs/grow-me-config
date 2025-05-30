@@ -7,4 +7,4 @@ spring:
       group-id: payment-service
 
 stripe:
-  API_KEY: ${StripeApiKey}
+  API_KEY: ${STRIPE_API_KEY}
