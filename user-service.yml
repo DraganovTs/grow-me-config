@@ -3,9 +3,9 @@ spring:
   application:
     name: user-service
   datasource:
-    url: jdbc:mysql://mysql-services:3306/growmeusers?createDatabaseIfNotExist=true
-    username: ${SQL_DB_USERNAME}
-    password: ${SQL_DB_PASSWORD}
+    url: jdbc:mysql://mysql-services:3306/growmeusers
+    username: root
+    password: password12345
   jpa:
     show-sql: true
     hibernate:
