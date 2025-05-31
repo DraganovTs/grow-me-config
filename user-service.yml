@@ -21,7 +21,7 @@ spring:
       platform: mysql
       schema-locations: classpath:schema.sql
   kafka:
-    bootstrap-servers: localhost:9091,localhost:9092,localhost:9093
+    bootstrap-servers: kafka-1:9091,kafka-2:9092,kafka-3:9093
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
